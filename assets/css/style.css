@@ -64,6 +64,10 @@
   width: 100px;
   height: 100px;
 }
+.custom-social-icon {
+  width: 40px;
+  margin-right: 5px;
+}
 
 #testimonial .carousel-control-next-icon:after {
   content: ">";
