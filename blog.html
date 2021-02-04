@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Traincu | Truck Operator</title>
+    <title>Traincu | Blog</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -41,12 +41,12 @@
               >HOME <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link text-white" href="./truck-operator.html"
               >TRUCK OPERATOR</a
             >
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link text-white" href="./blog.html">BLOG</a>
           </li>
           <li class="nav-item">
@@ -178,8 +178,8 @@
         </div>
         <div class="video">
           <iframe
-            class="truck-operator-video"
-            width="100%"
+            width="1100"
+            height="619"
             src="https://www.youtube.com/embed/F9st1Y76uG8"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -539,6 +539,13 @@
     <script>
       $(".carousel").carousel({
         interval: 2000,
+      });
+      $(".client-carousel").flickity({
+        groupCells: true,
+        freeScroll: true,
+        wrapAround: true,
+        groupCells: 1,
+        autoPlay: 3000,
       });
       $(".truck-operator-carousel").flickity({
         groupCells: true,

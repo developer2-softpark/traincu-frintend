@@ -92,9 +92,9 @@
   width: 243px;
   height: 181px;
 }
-.carousel-cell {
+.category-carousel .carousel-cell {
   width: 273px;
-  /* margin: 0 10px; */
+  margin: 0 10px;
 }
 .category-carousel .carousel-cell:hover {
   -webkit-box-shadow: 7px 5px 13px 1px rgba(0, 0, 0, 0.8);
@@ -134,10 +134,20 @@
   color: #ff6666;
 }
 
-.custom-truck-operator > img {
-  margin: 0 auto;
-  padding: 0 auto;
-  width: 18rem;
+/* .custom-truck-operator > img {
+  transform: translateX(3%);
+  -webkit-transform: translateX(3%);
+  -moz-transform: translateX(3%);
+  -ms-transform: translateX(3%);
+  -o-transform: translateX(3%);
+} */
+.truck-operator-carousel .carousel-cell {
+  /* width: 273px; */
+  margin: 0 10px;
+}
+.truck-operator-carousel .carousel-cell:hover {
+  -webkit-box-shadow: 7px 5px 13px 1px rgba(0, 0, 0, 0.8);
+  box-shadow: 7px 5px 13px 1px rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width: 767.98px) {
