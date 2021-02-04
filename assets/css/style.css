@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.active {
+  font-weight: 600;
+}
 .bg-purple-300 {
   background-color: #985eff;
 }
@@ -89,9 +92,9 @@
   width: 243px;
   height: 181px;
 }
-.category-carousel .carousel-cell {
+.carousel-cell {
   width: 273px;
-  margin: 0 10px;
+  /* margin: 0 10px; */
 }
 .category-carousel .carousel-cell:hover {
   -webkit-box-shadow: 7px 5px 13px 1px rgba(0, 0, 0, 0.8);
@@ -114,6 +117,27 @@
 .custom-newsletter-btn {
   width: 16px;
   color: white;
+}
+
+/* Truck Operator Page */
+.custom-truck-operator {
+  color: black;
+  text-decoration: none;
+}
+.custom-truck-operator:hover.custom-truck-operator h3 {
+  color: #ff4a4a;
+}
+.custom-truck-operator:hover {
+  text-decoration: none;
+}
+.custom-truck-operator:hover.custom-truck-operator p {
+  color: #ff6666;
+}
+
+.custom-truck-operator > img {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 18rem;
 }
 
 @media (max-width: 767.98px) {
