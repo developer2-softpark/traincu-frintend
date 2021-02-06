@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Traincu | FAQ</title>
+    <!DOCTYPE html>
+    <title>Traincu | Register</title>
     <link
       rel="shortcut icon"
       href="./assets/img/favicon.png"
@@ -46,17 +47,20 @@
             <a class="nav-link text-white" href="./index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="./truck-operator.html"
-              >TRUCK OPERATOR</a
-            >
+            <a class="nav-link text-white" href="./truck-operator.html">
+              TRUCK OPERATOR
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="./blog.html">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white active" href="./contact-us.html"
-              >CONTACT US</a
-            >
+            <a class="nav-link text-white" href="./contact-us.html">
+              CONTACT US
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="./sign-in.html">LOGIN</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -100,192 +104,56 @@
       </div>
     </nav>
     <div class="container my-5">
-      <div class="text-center">
-        <h3 class="testimonial-text">Frequently Asked Questions</h3>
-        <div class="d-flex justify-content-center align-items-center my-4">
-          <span class="line"></span>
-          <span class="square"></span>
-          <span class="line"></span>
+      <div class="row login-div">
+        <div class="col-md-5 col-sm-12 login-undraw-img">
+          <img
+            class="login-undraw-img"
+            src="./assets/img/undraw_Login_re_4vu2.svg"
+            alt=""
+          />
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <h4>Shipper</h4>
-          <div class="accordion mx-auto my-4" id="accordionExample">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-block btn-outline-none text-left"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Quis, fugit.
-                  </button>
-                </h2>
-              </div>
-
-              <div
-                id="collapseOne"
-                class="collapse"
-                aria-labelledby="headingOne"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  Some placeholder content for the first accordion panel. This
-                  panel is shown by default, thanks to the
-                  <code>.show</code> class.
-                </div>
-              </div>
+        <div
+          class="col-md-7 col-sm-12 login-form-div p-5 bg-white rounded shadow-lg"
+        >
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
             </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-block btn-outline-none text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseTwo"
-                class="collapse"
-                aria-labelledby="headingTwo"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  Some placeholder content for the second accordion panel. This
-                  panel is hidden by default.
-                </div>
-              </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
             </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-block btn-outline-none text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseThree"
-                class="collapse"
-                aria-labelledby="headingThree"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  And lastly, the placeholder content for the third and final
-                  accordion panel. This panel is hidden by default.
-                </div>
-              </div>
+            <div class="form-group">
+              <label for="user-type">User Type</label>
+              <select name="user-type" id="user-type" class="form-control">
+                <option value="1">Customer</option>
+                <option value="2">Company</option>
+              </select>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h4>Owner</h4>
-          <div class="accordion mx-auto my-4" id="accordionExample">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-block btn-outline-none text-left"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseFour"
-                    aria-expanded="true"
-                    aria-controls="collapseFour"
-                  >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Quis, fugit.
-                  </button>
-                </h2>
-              </div>
-
-              <div
-                id="collapseFour"
-                class="collapse"
-                aria-labelledby="headingFour"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  Some placeholder content for the first accordion panel. This
-                  panel is shown by default, thanks to the
-                  <code>.show</code> class.
-                </div>
-              </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
             </div>
-            <div class="card">
-              <div class="card-header" id="headingFive">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-block btn-outline-none text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseFive"
-                    aria-expanded="false"
-                    aria-controls="collapseFive"
-                  >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseFive"
-                class="collapse"
-                aria-labelledby="headingFive"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  Some placeholder content for the second accordion panel. This
-                  panel is hidden by default.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingSix">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-block btn-outline-none text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseSix"
-                    aria-expanded="false"
-                    aria-controls="collapseSix"
-                  >
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseSix"
-                class="collapse"
-                aria-labelledby="headingSix"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body">
-                  And lastly, the placeholder content for the third and final
-                  accordion panel. This panel is hidden by default.
-                </div>
-              </div>
-            </div>
-          </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+            <a class="d-block mt-2" href="./sign-in.html"
+              >Already have an account? Login</a
+            >
+          </form>
         </div>
       </div>
     </div>
@@ -295,7 +163,7 @@
           <div class="col-md-3 col-sm-12">
             <img class="logo" src="./assets/img/logo.png" alt="" />
             <p class="mt-4 text-dark">
-              Hotline: +966 55 117 5959 Copyright © 2019-2020 Traincu <br />
+              Hotline: +880 9638 000 245 Copyright © 2019-2020 Traincu <br />
               All Rights Reserved
             </p>
           </div>
@@ -368,7 +236,7 @@
               </div>
             </div>
             <h4>Social Links</h4>
-            <div class="d-flex">
+            <div class="d-flex flex-wrap">
               <a href="#">
                 <img
                   class="custom-social-icon"
@@ -413,5 +281,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- JavaScript -->
   </body>
 </html>
