@@ -1,11 +1,11 @@
 nav {
   background-image: linear-gradient(
-    to left top,
-    #051937,
-    #112e68,
-    #32419c,
-    #6052cf,
-    #985eff
+    to right bottom,
+    #ccbcfb,
+    #c0a8fd,
+    #b593fe,
+    #ab7dfe,
+    #a166fd
   );
 }
 .active {
@@ -25,6 +25,59 @@ nav {
 }
 .b-grey-100 {
   border-color: var(--grey-100);
+}
+.navbar-brand img {
+  width: 87px;
+  height: 40px;
+}
+.seperator {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: #a3a3a3;
+  margin: 4px 0;
+}
+.logo {
+  width: 120px;
+  height: 50px;
+}
+.custom-index-blog {
+  position: relative;
+}
+.custom-index-blog-date {
+  top: 30%;
+  left: 39.2%;
+  position: absolute;
+  background-color: #662f90;
+  box-shadow: 0 0 0 5px rgb(255 255 255 / 22%);
+  transform: rotate(45deg);
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+.custom-index-blog-date span {
+  display: block;
+  margin: 5px 0 0;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  transform: rotate(-45deg);
+  text-transform: uppercase;
+  text-align: center;
+}
+.custom-index-blog-admin {
+  display: flex;
+  font-weight: 400;
+  color: #a3a3a3;
+  font-size: 12px;
+}
+.custom-index-blog-title > a {
+  color: #6649b4;
+}
+.custom-index-blog-p {
+  color: #662f9e;
+  font-size: 13px;
 }
 .top-left {
   top: 50%;
