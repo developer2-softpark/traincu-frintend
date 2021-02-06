@@ -10,6 +10,37 @@
   --indigo-700: #4338ca;
   --indigo-900: #312e81;
 }
+nav {
+  background-image: linear-gradient(
+    to right bottom,
+    #ccbcfb,
+    #c0a8fd,
+    #b593fe,
+    #ab7dfe,
+    #a166fd
+  );
+}
+.active {
+  font-weight: 600;
+}
+.bg-purple-300 {
+  background-color: var(--purple-300);
+}
+.bg-white {
+  background-color: white;
+}
+.bg-grey-100 {
+  background-color: var(--grey-100);
+}
+.text-grey-100 {
+  color: var(--grey-100);
+}
+.text-purple {
+  color: #544ec2;
+}
+.b-grey-100 {
+  border-color: var(--grey-100);
+}
 .btn-outline-indigo {
   color: var(--indigo-500);
   background-color: transparent;
@@ -54,6 +85,18 @@
 .links-h:hover {
   text-decoration: underline;
   color: var(--indigo-900);
+}
+.btn-outline-none {
+  background: none;
+  outline: none;
+}
+.btn-outline-none:active {
+  outline: none;
+  box-shadow: none;
+}
+.btn-outline-none:focus {
+  outline: none;
+  box-shadow: none;
 }
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {

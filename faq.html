@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Traincu | Blog</title>
+    <title>Traincu | FAQ</title>
     <link
       rel="shortcut icon"
       href="./assets/img/favicon.png"
@@ -13,23 +13,17 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css" /> -->
     <!-- CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"
-    />
     <link rel="stylesheet" href="./assets/css/custom.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-
   <body class="bg-light-900">
     <nav
-      class="navbar navbar-dark navbar-expand-lg justify-content-between sticky-top shadow-lg"
+      class="navbar navbar-dark navbar-expand-lg bg-purple-300 justify-content-between sticky-top shadow-lg"
     >
       <a class="navbar-brand text-white" href="./index.html">
         <img src="assets/img/logo.png" alt="" />
@@ -56,11 +50,11 @@
               >TRUCK OPERATOR</a
             >
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link text-white" href="./blog.html">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="./contact-us.html"
+            <a class="nav-link text-white active" href="./contact-us.html"
               >CONTACT US</a
             >
           </li>
@@ -105,126 +99,192 @@
         </ul>
       </div>
     </nav>
-    <div class="bg-white w-100 h-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 clo-sm-12 px-3">
-            <img class="img-fluid" src="./assets/img/blog-1.jpg" alt="" />
-            <h4 class="mt-4">
-              BACHELOR HOME SHIFT: 6 THINGS YOU SHOULD KNOW BEFORE SHIFTING
-            </h4>
-            <div class="d-flex align-items-center">
-              <span class="mr-1">
-                <img width="14" src="./assets/img/calendar.svg" alt="" />
-              </span>
-              <span class="text-muted" style="font-size: 12px"
-                >On January 24, 2021</span
+    <div class="container">
+      <div class="text-center">
+        <h3 class="testimonial-text">Frequently Asked Questions</h3>
+        <div class="d-flex justify-content-center align-items-center my-4">
+          <span class="line"></span>
+          <span class="square"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Shipper</h4>
+          <div class="accordion mx-auto my-4" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block btn-outline-none text-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quis, fugit.
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
               >
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This
+                  panel is shown by default, thanks to the
+                  <code>.show</code> class.
+                </div>
+              </div>
             </div>
-            <div class="mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea porro
-              voluptates cum laborum reiciendis corrupti itaque incidunt
-              dignissimos minima quasi debitis tenetur asperiores minus vitae
-              nostrum, pariatur, officia animi quibusdam non commodi ipsum esse!
-              Quas veritatis eius temporibus numquam. Omnis eligendi impedit
-              minima autem alias doloribus pariatur qui sequi facere! Lorem
-              ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate,
-              neque totam voluptate aperiam tenetur facere officia vitae
-              necessitatibus perspiciatis placeat et atque ad, nisi deserunt
-              nihil sapiente est maxime, id culpa minima asperiores dolore.
-              Tempore, minima amet non fugit nostrum eius magni blanditiis
-              tempora. Tempore asperiores nam enim fuga sit sapiente sequi!
-              Labore reprehenderit praesentium eum quis nam dolorum
-              voluptatibus?
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block btn-outline-none text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Some placeholder content for the second accordion panel. This
+                  panel is hidden by default.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block btn-outline-none text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  And lastly, the placeholder content for the third and final
+                  accordion panel. This panel is hidden by default.
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-4 clo-sm-12 pt-3 pr-5">
-            <form>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control search"
-                  aria-describedby="search"
-                />
+        </div>
+        <div class="col-md-6">
+          <h4>Owner</h4>
+          <div class="accordion mx-auto my-4" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block btn-outline-none text-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quis, fugit.
+                  </button>
+                </h2>
               </div>
-              <button type="submit" class="d-none">Submit</button>
-            </form>
-            <h5 class="mt-4">CATEGORIES</h5>
-            <ul class="list-unstyled mt-3 category-links">
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#">Enterprise</a>
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#">Enterprise</a>
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#">Enterprise</a>
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#">Enterprise</a>
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#">Enterprise</a>
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#">Enterprise</a>
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#">Enterprise</a>
-                <span>&gt;</span>
-              </li>
-            </ul>
-            <h5 class="mt-4">RECENT POSTS</h5>
-            <ul class="list-unstyled mt-3 category-links">
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#"
-                  >Lorem ipsum dolor sit amet consectetur adipisicing.</a
-                >
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#"
-                  >Lorem ipsum dolor sit amet consectetur adipisicing.</a
-                >
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#"
-                  >Lorem ipsum dolor sit amet consectetur adipisicing.</a
-                >
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#"
-                  >Lorem ipsum dolor sit amet consectetur adipisicing.</a
-                >
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#"
-                  >Lorem ipsum dolor sit amet consectetur adipisicing.</a
-                >
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#"
-                  >Lorem ipsum dolor sit amet consectetur adipisicing.</a
-                >
-                <span>&gt;</span>
-              </li>
-              <li class="d-flex justify-content-between align-items-center">
-                <a href="#"
-                  >Lorem ipsum dolor sit amet consectetur adipisicing.</a
-                >
-                <span>&gt;</span>
-              </li>
-            </ul>
+
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This
+                  panel is shown by default, thanks to the
+                  <code>.show</code> class.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block btn-outline-none text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFive"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Some placeholder content for the second accordion panel. This
+                  panel is hidden by default.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block btn-outline-none text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSix"
+                class="collapse"
+                aria-labelledby="headingSix"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  And lastly, the placeholder content for the third and final
+                  accordion panel. This panel is hidden by default.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -235,7 +295,7 @@
           <div class="col-md-3 col-sm-12">
             <img class="logo" src="./assets/img/logo.png" alt="" />
             <p class="mt-4 text-dark">
-              Hotline: +880 9638 000 245 Copyright © 2019-2020 Traincu <br />
+              Hotline: +966 55 117 5959 Copyright © 2019-2020 Traincu <br />
               All Rights Reserved
             </p>
           </div>
@@ -349,10 +409,9 @@
         </div>
       </div>
     </footer>
-    <!-- <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>
