@@ -280,6 +280,14 @@ nav {
 }
 /* Blog Page: end */
 
+/* Contact Ug Page: start */
+.custom-contact-map {
+  height: 300px;
+  width: 100%;
+}
+
+/* Contact Ug Page: end */
+
 @media (max-width: 767.98px) {
   .why-logo {
     display: flex;
