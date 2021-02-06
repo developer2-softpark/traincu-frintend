@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/dashboard.css" />
+    <link rel="stylesheet" href="assets/css/dashboard-style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-dark navbar-expand-lg bg-purple-300 justify-content-between sticky-top shadow-lg"
+    >
+      <a class="navbar-brand text-white" href="./index.html">
+        <img src="assets/img/logo.png" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white d-flex align-items-center"
+              href="#"
+              data-toggle="dropdown"
+            >
+              <span>
+                <img
+                  class="lang-icon mr-1"
+                  src="./assets/img/flag/uk.svg"
+                  alt="English"
+                />
+              </span>
+              <span>&nbsp;ENGLISH </span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <img
+                    class="lang-icon"
+                    src="./assets/img/flag/uk.svg"
+                    alt="English"
+                  />
+                  <span>&nbsp; English</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <img
+                    class="lang-icon"
+                    src="./assets/img/flag/uae.svg"
+                    alt="English"
+                  />
+                  <span>&nbsp; العربية</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row mt-2">
+      <div class="col-md-3 col-sm-12 dashboard-sidebar">
+        <div class="mr-1 shadow-lg">
+          <div class="bg-purple-300 px-2 py-3 d-flex align-items-center">
+            <div class="sidebar-user-img-div">
+              <img
+                class="sidebar-user-img"
+                src="./assets/img/user2-160x160.jpg"
+                alt=""
+              />
+              <div class="green-dot"></div>
+            </div>
+            <div class="text-white ml-2">
+              <p class="text-17 font-weight-bold m-0">Welcome Back!</p>
+              <p class="text-17 m-0">John Doe</p>
+            </div>
+          </div>
+          <div class="p-2">
+            <ul>
+              <li>
+                <a href="#">
+                  <span></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="shadow-lg p-2"></div>
+      </div>
+      <div class="col-md-3 col-sm-2 dashboard-profilebar">
+        <div class="ml-1 shadow-lg p-2"></div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
