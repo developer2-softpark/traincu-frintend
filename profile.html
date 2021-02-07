@@ -72,7 +72,11 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-right">
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="javascript:void(0)"
+                  onclick="document.querySelector('html').dir='ltr';"
+                >
                   <img
                     class="lang-icon"
                     src="./assets/img/flag/uk.svg"
@@ -82,7 +86,11 @@
                 </a>
               </li>
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="javascript:void(0)"
+                  onclick="document.querySelector('html').dir='rtl';"
+                >
                   <img
                     class="lang-icon"
                     src="./assets/img/flag/uae.svg"
@@ -92,8 +100,6 @@
                 </a>
               </li>
             </ul>
-          </li>
-        </ul>
       </div>
     </nav>
     <div class="m-0 mt-2 row">
@@ -116,7 +122,7 @@
           <div>
             <ul class="sidebar-list">
               <li class="sidebar-list-item">
-                <a class="sidebar-link active" href="#">
+                <a class="sidebar-link" href="./dashboard.html">
                   <span class="sidebar-icon">
                     <i class="icon-dashboard"></i>
                   </span>
@@ -127,9 +133,9 @@
                 </a>
               </li>
               <li class="sidebar-list-item">
-                <a class="sidebar-link" href="./profile.html">
+                <a class="sidebar-link active" href="./profile.html">
                   <span class="sidebar-icon">
-                    <i class="icon-dashboard"></i>
+                    <i class="icon-user"></i>
                   </span>
                   <span class="sidebar-link-name"> Profile </span>
                   <span class="ml-auto">
@@ -155,7 +161,7 @@
                   <li class="sidebar-list-item">
                     <a class="sidebar-link" href="#">
                       <span class="sidebar-icon">
-                        <i class="icon-dashboard"></i>
+                        <i class="icon-bolt"></i>
                       </span>
                       <span class="sidebar-link-name"> Current Trip </span>
                       <span class="ml-auto">
@@ -166,7 +172,7 @@
                   <li class="sidebar-list-item">
                     <a class="sidebar-link" href="#">
                       <span class="sidebar-icon">
-                        <i class="icon-dashboard"></i>
+                        <i class="icon-calendar"></i>
                       </span>
                       <span class="sidebar-link-name"> Trip History </span>
                       <span class="ml-auto">
@@ -179,7 +185,7 @@
               <li class="sidebar-list-item">
                 <a class="sidebar-link" href="#">
                   <span class="sidebar-icon">
-                    <i class="icon-dashboard"></i>
+                    <i class="icon-book"></i>
                   </span>
                   <span class="sidebar-link-name"> Address Book </span>
                   <span class="ml-auto">
@@ -205,7 +211,7 @@
                   <li class="sidebar-list-item">
                     <a class="sidebar-link" href="#">
                       <span class="sidebar-icon">
-                        <i class="icon-dashboard"></i>
+                        <i class="icon-bell-alt"></i>
                       </span>
                       <span class="sidebar-link-name"> Notification </span>
                       <span class="ml-auto">
@@ -229,7 +235,7 @@
               <li class="sidebar-list-item">
                 <a class="sidebar-link" href="#">
                   <span class="sidebar-icon">
-                    <i class="icon-dashboard"></i>
+                    <i class="icon-ticket"></i>
                   </span>
                   <span class="sidebar-link-name"> Cuppon </span>
                   <span class="ml-auto">
@@ -240,7 +246,7 @@
               <li class="sidebar-list-item">
                 <a class="sidebar-link" href="#">
                   <span class="sidebar-icon">
-                    <i class="icon-dashboard"></i>
+                    <i class="icon-cog"></i>
                   </span>
                   <span class="sidebar-link-name"> Setting </span>
                   <span class="ml-auto">
@@ -253,25 +259,7 @@
         </div>
       </div>
       <div class="p-0 col-md-9 col-sm-12">
-        <div class="p-2 shadow-lg">
-          <div class="m-0 row">
-            <div class="col-md-6 col-sm-12">
-              <div class="p-3 py-4 m-2 bg-red-600 rounded shadow-lg cost-trip">
-                <h3 class="text-light-900">Total Cost</h3>
-                <h4 class="px-3 text-light-900">9000 SR</h4>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div
-                class="p-3 py-4 m-2 bg-yellow-700 rounded shadow-lg number-trip"
-              >
-                <h3 class="text-light-900">Total Trip</h3>
-                <h4 class="px-3 text-light-900">120+</h4>
-              </div>
-            </div>
-          </div>
-          <h2 class="p-5 text-center">Welocome To Dashboard</h2>
-        </div>
+        <div class="p-2 shadow-lg"></div>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

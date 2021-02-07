@@ -25,9 +25,9 @@
 
   <body class="bg-light-900">
     <nav
-      class="navbar navbar-dark navbar-expand-lg justify-content-between sticky-top shadow-lg"
+      class="shadow-lg navbar navbar-dark navbar-expand-lg justify-content-between sticky-top"
     >
-      <a class="navbar-brand text-white" href="./index.html">
+      <a class="text-white navbar-brand" href="./index.html">
         <img src="assets/img/logo.png" alt="" />
       </a>
       <button
@@ -39,36 +39,36 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon text-white"></span>
+        <span class="text-white navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <ul class="mt-2 ml-auto navbar-nav mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-white" href="./index.html">HOME</a>
+            <a class="text-white nav-link" href="./index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="./truck-operator.html"
+            <a class="text-white nav-link" href="./truck-operator.html"
               >TRUCK OPERATOR</a
             >
           </li>
           <li class="nav-item active">
-            <a class="nav-link text-white" href="./blog.html">BLOG</a>
+            <a class="text-white nav-link" href="./blog.html">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="./contact-us.html"
+            <a class="text-white nav-link" href="./contact-us.html"
               >CONTACT US</a
             >
           </li>
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle text-white d-flex align-items-center"
+              class="text-white nav-link dropdown-toggle d-flex align-items-center"
               href="#"
               data-toggle="dropdown"
             >
               <span>
                 <img
-                  class="lang-icon mr-1"
+                  class="mr-1 lang-icon"
                   src="./assets/img/flag/uk.svg"
                   alt="English"
                 />
@@ -77,7 +77,11 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-right">
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="javascript:void(0)"
+                  onclick="document.querySelector('html').dir='ltr';"
+                >
                   <img
                     class="lang-icon"
                     src="./assets/img/flag/uk.svg"
@@ -87,7 +91,11 @@
                 </a>
               </li>
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="javascript:void(0)"
+                  onclick="document.querySelector('html').dir='rtl';"
+                >
                   <img
                     class="lang-icon"
                     src="./assets/img/flag/uae.svg"
@@ -104,19 +112,19 @@
     <div class="container my-3">
       <div class="d-flex justify-content-between">
         <h3>BLOG</h3>
-        <ol class="breadcrumb bg-light-900 m-0 p-0">
+        <ol class="p-0 m-0 breadcrumb bg-light-900">
           <li class="breadcrumb-item"><a href="#">Home</a></li>
           <li class="breadcrumb-item active" aria-current="page">Library</li>
         </ol>
       </div>
     </div>
-    <div class="bg-white w-100 h-5">
+    <div class="h-5 bg-white w-100">
       <div class="container">
         <div class="row">
           <div class="col-md-8 clo-sm-12">
-            <div class="my-3 py-3 border b-grey-100 w-100">
+            <div class="py-3 my-3 border b-grey-100 w-100">
               <div
-                class="d-flex px-2 justify-content-between align-items-center mb-3"
+                class="px-2 mb-3 d-flex justify-content-between align-items-center"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -125,7 +133,7 @@
                     src="./assets/img/admin.png"
                     alt="admin"
                   />
-                  <span class="text-dark font-weight-bold ml-2">Admin</span>
+                  <span class="ml-2 text-dark font-weight-bold">Admin</span>
                 </div>
                 <div class="rounded-circle date-circle">
                   <span class="font-weight-bold text-grey-100 d-block">24</span>
@@ -145,7 +153,7 @@
                   </div>
                 </a>
               </div>
-              <div class="w-100 p-3">
+              <div class="p-3 w-100">
                 <h4>
                   <a class="links-h" href="./single-blog.html">
                     BACHELOR HOME SHIFT: 6 THINGS YOU SHOULD KNOW BEFORE
@@ -163,9 +171,9 @@
                 <a class="btn btn-outline-indigo" href="#">Read More</a>
               </div>
             </div>
-            <div class="my-3 py-3 border b-grey-100 w-100">
+            <div class="py-3 my-3 border b-grey-100 w-100">
               <div
-                class="d-flex px-2 justify-content-between align-items-center mb-3"
+                class="px-2 mb-3 d-flex justify-content-between align-items-center"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -174,7 +182,7 @@
                     src="./assets/img/admin.png"
                     alt="admin"
                   />
-                  <span class="text-dark font-weight-bold ml-2">Admin</span>
+                  <span class="ml-2 text-dark font-weight-bold">Admin</span>
                 </div>
                 <div class="rounded-circle date-circle">
                   <span class="font-weight-bold text-grey-100 d-block">24</span>
@@ -194,7 +202,7 @@
                   </div>
                 </a>
               </div>
-              <div class="w-100 p-3">
+              <div class="p-3 w-100">
                 <h4>
                   <a class="links-h" href="./single-blog.html">
                     BACHELOR HOME SHIFT: 6 THINGS YOU SHOULD KNOW BEFORE
@@ -212,9 +220,9 @@
                 <a class="btn btn-outline-indigo" href="#">Read More</a>
               </div>
             </div>
-            <div class="my-3 py-3 border b-grey-100 w-100">
+            <div class="py-3 my-3 border b-grey-100 w-100">
               <div
-                class="d-flex px-2 justify-content-between align-items-center mb-3"
+                class="px-2 mb-3 d-flex justify-content-between align-items-center"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -223,7 +231,7 @@
                     src="./assets/img/admin.png"
                     alt="admin"
                   />
-                  <span class="text-dark font-weight-bold ml-2">Admin</span>
+                  <span class="ml-2 text-dark font-weight-bold">Admin</span>
                 </div>
                 <div class="rounded-circle date-circle">
                   <span class="font-weight-bold text-grey-100 d-block">24</span>
@@ -243,7 +251,7 @@
                   </div>
                 </a>
               </div>
-              <div class="w-100 p-3">
+              <div class="p-3 w-100">
                 <h4>
                   <a class="links-h" href="./single-blog.html">
                     BACHELOR HOME SHIFT: 6 THINGS YOU SHOULD KNOW BEFORE
@@ -261,9 +269,9 @@
                 <a class="btn btn-outline-indigo" href="#">Read More</a>
               </div>
             </div>
-            <div class="my-3 py-3 border b-grey-100 w-100">
+            <div class="py-3 my-3 border b-grey-100 w-100">
               <div
-                class="d-flex px-2 justify-content-between align-items-center mb-3"
+                class="px-2 mb-3 d-flex justify-content-between align-items-center"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -272,7 +280,7 @@
                     src="./assets/img/admin.png"
                     alt="admin"
                   />
-                  <span class="text-dark font-weight-bold ml-2">Admin</span>
+                  <span class="ml-2 text-dark font-weight-bold">Admin</span>
                 </div>
                 <div class="rounded-circle date-circle">
                   <span class="font-weight-bold text-grey-100 d-block">24</span>
@@ -292,7 +300,7 @@
                   </div>
                 </a>
               </div>
-              <div class="w-100 p-3">
+              <div class="p-3 w-100">
                 <h4>
                   <a class="links-h" href="./single-blog.html">
                     BACHELOR HOME SHIFT: 6 THINGS YOU SHOULD KNOW BEFORE
@@ -310,9 +318,9 @@
                 <a class="btn btn-outline-indigo" href="#">Read More</a>
               </div>
             </div>
-            <div class="my-3 py-3 border b-grey-100 w-100">
+            <div class="py-3 my-3 border b-grey-100 w-100">
               <div
-                class="d-flex px-2 justify-content-between align-items-center mb-3"
+                class="px-2 mb-3 d-flex justify-content-between align-items-center"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -321,7 +329,7 @@
                     src="./assets/img/admin.png"
                     alt="admin"
                   />
-                  <span class="text-dark font-weight-bold ml-2">Admin</span>
+                  <span class="ml-2 text-dark font-weight-bold">Admin</span>
                 </div>
                 <div class="rounded-circle date-circle">
                   <span class="font-weight-bold text-grey-100 d-block">24</span>
@@ -341,7 +349,7 @@
                   </div>
                 </a>
               </div>
-              <div class="w-100 p-3">
+              <div class="p-3 w-100">
                 <h4>
                   <a class="links-h" href="./single-blog.html">
                     BACHELOR HOME SHIFT: 6 THINGS YOU SHOULD KNOW BEFORE
@@ -359,9 +367,9 @@
                 <a class="btn btn-outline-indigo" href="#">Read More</a>
               </div>
             </div>
-            <div class="my-3 py-3 border b-grey-100 w-100">
+            <div class="py-3 my-3 border b-grey-100 w-100">
               <div
-                class="d-flex px-2 justify-content-between align-items-center mb-3"
+                class="px-2 mb-3 d-flex justify-content-between align-items-center"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -370,7 +378,7 @@
                     src="./assets/img/admin.png"
                     alt="admin"
                   />
-                  <span class="text-dark font-weight-bold ml-2">Admin</span>
+                  <span class="ml-2 text-dark font-weight-bold">Admin</span>
                 </div>
                 <div class="rounded-circle date-circle">
                   <span class="font-weight-bold text-grey-100 d-block">24</span>
@@ -390,7 +398,7 @@
                   </div>
                 </a>
               </div>
-              <div class="w-100 p-3">
+              <div class="p-3 w-100">
                 <h4>
                   <a class="links-h" href="./single-blog.html">
                     BACHELOR HOME SHIFT: 6 THINGS YOU SHOULD KNOW BEFORE
@@ -422,7 +430,7 @@
               </form>
             </div>
           </div>
-          <div class="col-md-4 clo-sm-12 pt-3 pr-5">
+          <div class="pt-3 pr-5 col-md-4 clo-sm-12">
             <form>
               <div class="form-group">
                 <input
@@ -434,7 +442,7 @@
               <button type="submit" class="d-none">Submit</button>
             </form>
             <h5 class="mt-4">CATEGORIES</h5>
-            <ul class="list-unstyled mt-3 category-links">
+            <ul class="mt-3 list-unstyled category-links">
               <li class="d-flex justify-content-between align-items-center">
                 <a href="#">Enterprise</a>
                 <span>&gt;</span>
@@ -465,7 +473,7 @@
               </li>
             </ul>
             <h5 class="mt-4">RECENT POSTS</h5>
-            <ul class="list-unstyled mt-3 category-links">
+            <ul class="mt-3 list-unstyled category-links">
               <li class="d-flex justify-content-between align-items-center">
                 <a href="#"
                   >Lorem ipsum dolor sit amet consectetur adipisicing.</a
@@ -515,7 +523,7 @@
     </div>
     <footer class="bg-white">
       <div class="container">
-        <div class="row py-5">
+        <div class="py-5 row">
           <div class="col-md-3 col-sm-12">
             <img class="logo" src="./assets/img/logo.png" alt="" />
             <p class="mt-4 text-dark">
@@ -548,7 +556,7 @@
             <p class="text-dark">
               Please subscribe to receive news, updates & exclusive promotions
             </p>
-            <div class="input-group mb-3">
+            <div class="mb-3 input-group">
               <input
                 type="text"
                 class="form-control"

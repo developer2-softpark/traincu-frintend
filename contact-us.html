@@ -23,9 +23,9 @@
   </head>
   <body class="bg-light-900">
     <nav
-      class="navbar navbar-dark navbar-expand-lg bg-purple-300 justify-content-between sticky-top shadow-lg"
+      class="bg-purple-300 shadow-lg navbar navbar-dark navbar-expand-lg justify-content-between sticky-top"
     >
-      <a class="navbar-brand text-white" href="./index.html">
+      <a class="text-white navbar-brand" href="./index.html">
         <img src="assets/img/logo.png" alt="" />
       </a>
       <button
@@ -37,36 +37,36 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon text-white"></span>
+        <span class="text-white navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <ul class="mt-2 ml-auto navbar-nav mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-white" href="./index.html">HOME</a>
+            <a class="text-white nav-link" href="./index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="./truck-operator.html"
+            <a class="text-white nav-link" href="./truck-operator.html"
               >TRUCK OPERATOR</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="./blog.html">BLOG</a>
+            <a class="text-white nav-link" href="./blog.html">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white active" href="./contact-us.html"
+            <a class="text-white nav-link active" href="./contact-us.html"
               >CONTACT US</a
             >
           </li>
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle text-white d-flex align-items-center"
+              class="text-white nav-link dropdown-toggle d-flex align-items-center"
               href="#"
               data-toggle="dropdown"
             >
               <span>
                 <img
-                  class="lang-icon mr-1"
+                  class="mr-1 lang-icon"
                   src="./assets/img/flag/uk.svg"
                   alt="English"
                 />
@@ -75,7 +75,11 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-right">
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="javascript:void(0)"
+                  onclick="document.querySelector('html').dir='ltr';"
+                >
                   <img
                     class="lang-icon"
                     src="./assets/img/flag/uk.svg"
@@ -85,7 +89,11 @@
                 </a>
               </li>
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="javascript:void(0)"
+                  onclick="document.querySelector('html').dir='rtl';"
+                >
                   <img
                     class="lang-icon"
                     src="./assets/img/flag/uae.svg"
@@ -112,8 +120,8 @@
       ></iframe>
     </div>
     <div class="container mt-5">
-      <div class="row my-5">
-        <h5 class="w-100 text-center" style="color: blueviolet">
+      <div class="my-5 row">
+        <h5 class="text-center w-100" style="color: blueviolet">
           FEEL FREE TO SEND US A MESSAGE OR ASK FOR A FREE QUOTE
         </h5>
       </div>
@@ -158,7 +166,7 @@
               ></textarea>
             </div>
             <div class="form-group d-flex">
-              <button type="submit" class="btn btn-outline-indigo mx-auto">
+              <button type="submit" class="mx-auto btn btn-outline-indigo">
                 Send
               </button>
             </div>
@@ -169,7 +177,7 @@
 
     <footer class="bg-white">
       <div class="container">
-        <div class="row py-5">
+        <div class="py-5 row">
           <div class="col-md-3 col-sm-12">
             <img class="logo" src="./assets/img/logo.png" alt="" />
             <p class="mt-4 text-dark">
@@ -202,7 +210,7 @@
             <p class="text-dark">
               Please subscribe to receive news, updates & exclusive promotions
             </p>
-            <div class="input-group mb-3">
+            <div class="mb-3 input-group">
               <input
                 type="text"
                 class="form-control"
