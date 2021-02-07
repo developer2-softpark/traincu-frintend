@@ -40,3 +40,15 @@
 .sidebar-icon {
   margin-right: 5px;
 }
+.cost-trip {
+  background-image: url("../img/dollar-symbol.svg");
+  background-repeat: no-repeat;
+  background-size: 55px;
+  background-position: 96%, 20px;
+}
+.number-trip {
+  background-image: url("../img/increase.svg");
+  background-repeat: no-repeat;
+  background-size: 55px;
+  background-position: 96%, 20px;
+}
