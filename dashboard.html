@@ -13,6 +13,10 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
     <!-- CSS -->
     <link
       rel="stylesheet"
@@ -21,11 +25,12 @@
     <link rel="stylesheet" href="assets/css/dashboard.css" />
     <link rel="stylesheet" href="assets/css/dashboard-style.css" />
   </head>
+
   <body>
     <nav
-      class="navbar navbar-dark navbar-expand-lg bg-purple-300 justify-content-between sticky-top shadow-lg"
+      class="bg-purple-300 shadow-lg navbar navbar-dark navbar-expand-lg justify-content-between sticky-top"
     >
-      <a class="navbar-brand text-white" href="./index.html">
+      <a class="text-white navbar-brand" href="./index.html">
         <img src="assets/img/logo.png" alt="" />
       </a>
       <button
@@ -37,25 +42,33 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon text-white"></span>
+        <span class="text-white navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <ul class="mt-2 ml-auto navbar-nav mt-lg-0">
+          <li class="nav-item">
+            <a class="text-white nav-link" href="./dashboard.html">
+              <span class="position-relative">
+                <i class="icon-bell-alt"></i>
+                <span class="red-dot"></span>
+              </span>
+            </a>
+          </li>
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle text-white d-flex align-items-center"
+              class="text-white nav-link dropdown-toggle d-flex align-items-center"
               href="#"
               data-toggle="dropdown"
             >
               <span>
                 <img
-                  class="lang-icon mr-1"
+                  class="mr-1 lang-icon"
                   src="./assets/img/flag/uk.svg"
                   alt="English"
                 />
               </span>
-              <span>&nbsp;ENGLISH </span>
+              <span> ENGLISH </span>
             </a>
             <ul class="dropdown-menu dropdown-menu-right">
               <li>
@@ -83,10 +96,10 @@
         </ul>
       </div>
     </nav>
-    <div class="row mt-2">
+    <div class="m-0 mt-2 row">
       <div class="col-md-3 col-sm-12 dashboard-sidebar">
         <div class="mr-1 shadow-lg">
-          <div class="bg-purple-300 px-2 py-3 d-flex align-items-center">
+          <div class="px-2 py-3 bg-purple-300 d-flex align-items-center">
             <div class="sidebar-user-img-div">
               <img
                 class="sidebar-user-img"
@@ -95,31 +108,157 @@
               />
               <div class="green-dot"></div>
             </div>
-            <div class="text-white ml-2">
-              <p class="text-17 font-weight-bold m-0">Welcome Back!</p>
-              <p class="text-17 m-0">John Doe</p>
+            <div class="ml-2 text-white">
+              <p class="m-0 text-17 font-weight-bold">Welcome Back!</p>
+              <p class="m-0 text-17">John Doe</p>
             </div>
           </div>
-          <div class="p-2">
-            <ul>
-              <li>
-                <a href="#">
-                  <span></span>
+          <div>
+            <ul class="sidebar-list">
+              <li class="sidebar-list-item">
+                <a class="sidebar-link active" href="#">
+                  <span class="sidebar-icon">
+                    <i class="icon-dashboard"></i>
+                  </span>
+                  <span class="sidebar-link-name"> Dashboard </span>
+                  <span class="ml-auto">
+                    <i class="icon-chevron-right"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="sidebar-list-item">
+                <a class="sidebar-link" href="#">
+                  <span class="sidebar-icon">
+                    <i class="icon-dashboard"></i>
+                  </span>
+                  <span class="sidebar-link-name"> Profile </span>
+                  <span class="ml-auto">
+                    <i class="icon-chevron-right"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="sidebar-list-item">
+                <a
+                  class="sidebar-link"
+                  href="javascript:void(0);"
+                  onclick="sidebarLinkToggle(this);"
+                >
+                  <span class="sidebar-icon">
+                    <i class="icon-dashboard"></i>
+                  </span>
+                  <span class="sidebar-link-name"> Trip </span>
+                  <span class="ml-auto">
+                    <i class="icon-chevron-right"></i>
+                  </span>
+                </a>
+                <ul class="sidebar-list d-none">
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link" href="#">
+                      <span class="sidebar-icon">
+                        <i class="icon-dashboard"></i>
+                      </span>
+                      <span class="sidebar-link-name"> Current Trip </span>
+                      <span class="ml-auto">
+                        <i class="icon-chevron-right"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link" href="#">
+                      <span class="sidebar-icon">
+                        <i class="icon-dashboard"></i>
+                      </span>
+                      <span class="sidebar-link-name"> Trip History </span>
+                      <span class="ml-auto">
+                        <i class="icon-chevron-right"></i>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-list-item">
+                <a class="sidebar-link" href="#">
+                  <span class="sidebar-icon">
+                    <i class="icon-dashboard"></i>
+                  </span>
+                  <span class="sidebar-link-name"> Address Book </span>
+                  <span class="ml-auto">
+                    <i class="icon-chevron-right"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="sidebar-list-item">
+                <a
+                  class="sidebar-link"
+                  href="javascript:void(0);"
+                  onclick="sidebarLinkToggle(this);"
+                >
+                  <span class="sidebar-icon">
+                    <i class="icon-dashboard"></i>
+                  </span>
+                  <span class="sidebar-link-name"> Inbox </span>
+                  <span class="ml-auto">
+                    <i class="icon-chevron-right"></i>
+                  </span>
+                </a>
+                <ul class="sidebar-list d-none">
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link" href="#">
+                      <span class="sidebar-icon">
+                        <i class="icon-dashboard"></i>
+                      </span>
+                      <span class="sidebar-link-name"> Notification </span>
+                      <span class="ml-auto">
+                        <i class="icon-chevron-right"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list-item">
+                    <a class="sidebar-link" href="#">
+                      <span class="sidebar-icon">
+                        <i class="icon-dashboard"></i>
+                      </span>
+                      <span class="sidebar-link-name"> Campaign </span>
+                      <span class="ml-auto">
+                        <i class="icon-chevron-right"></i>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-list-item">
+                <a class="sidebar-link" href="#">
+                  <span class="sidebar-icon">
+                    <i class="icon-dashboard"></i>
+                  </span>
+                  <span class="sidebar-link-name"> Cuppon </span>
+                  <span class="ml-auto">
+                    <i class="icon-chevron-right"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="sidebar-list-item">
+                <a class="sidebar-link" href="#">
+                  <span class="sidebar-icon">
+                    <i class="icon-dashboard"></i>
+                  </span>
+                  <span class="sidebar-link-name"> Setting </span>
+                  <span class="ml-auto">
+                    <i class="icon-chevron-right"></i>
+                  </span>
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="shadow-lg p-2"></div>
-      </div>
-      <div class="col-md-3 col-sm-2 dashboard-profilebar">
-        <div class="ml-1 shadow-lg p-2"></div>
+      <div class="p-0 col-md-9 col-sm-12">
+        <div class="p-2 shadow-lg"></div>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./assets/js/dashboard.js"></script>
   </body>
 </html>
